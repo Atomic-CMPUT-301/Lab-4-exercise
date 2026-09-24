@@ -1,6 +1,8 @@
 package com.example.atomic_cmput_301
 
-open class Shape {
-    val x : Int = 0
-    val y: Int = 0
+abstract class Shape {
+    open val x: Int = 0
+    open val y: Int = 0
 }
+
+class Star : Shape()
