@@ -1,6 +1,6 @@
 package com.example.atomic_cmput_301
 
-open class Shape {
+class Shape {
     val x : Int = 0
     val y: Int = 0
 }
