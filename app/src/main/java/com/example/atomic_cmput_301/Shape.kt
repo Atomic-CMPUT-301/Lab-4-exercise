@@ -3,4 +3,6 @@ package com.example.atomic_cmput_301
 open class Shape {
     open val x : Int = 0
     open val y: Int = 0
+
+    val color: String = "Blue"
 }
