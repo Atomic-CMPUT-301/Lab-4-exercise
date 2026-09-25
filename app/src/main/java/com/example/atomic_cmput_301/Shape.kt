@@ -6,4 +6,3 @@ abstract class Shape {
     open val color: String = "mauve"
 
 }
-
